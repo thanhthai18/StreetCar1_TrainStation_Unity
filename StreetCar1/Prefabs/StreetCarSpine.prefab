@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6483686717796929044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6483686717796929045}
+  - component: {fileID: 6483686717796929042}
+  - component: {fileID: 6483686717796929041}
+  - component: {fileID: 6483686717796929040}
+  - component: {fileID: 6483686717796929047}
+  - component: {fileID: 6483686717796929046}
+  m_Layer: 0
+  m_Name: StreetCarSpine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6483686717796929045
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483686717796929044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6483686717796929042
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483686717796929044}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6483686717796929041
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483686717796929044}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b72dde27182c4fd40aa5cb9888b6f83f, type: 2}
+  - {fileID: 2100000, guid: 44e0b35db82ea9e4cb9ed257c26a4634, type: 2}
+  - {fileID: 2100000, guid: 489f2725e7d307f44ada39fa5e383082, type: 2}
+  - {fileID: 2100000, guid: 92680a03f2375fd4db995e6c29e16f5f, type: 2}
+  - {fileID: 2100000, guid: e06467c43bd6c584eb0290597556a390, type: 2}
+  - {fileID: 2100000, guid: b5ea9d06668b3fb4e8450eafb55c24f6, type: 2}
+  - {fileID: 2100000, guid: 7898ca8f99624e246b2bbf954f0c4258, type: 2}
+  - {fileID: 2100000, guid: aaeec189446903540bf48e4c8d8a6c80, type: 2}
+  - {fileID: 2100000, guid: 1f56922fb1403bc4cbcbf0db0b9d76e7, type: 2}
+  - {fileID: 2100000, guid: d54e88b10f47e9d419d67b238d979ca7, type: 2}
+  - {fileID: 2100000, guid: 72cf676469117a8479981f9476e083d6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &6483686717796929040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483686717796929044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skeletonDataAsset: {fileID: 11400000, guid: 3e1f197df76a7f9449726e022ba419f4, type: 2}
+  initialSkinName: default
+  initialFlipX: 0
+  initialFlipY: 0
+  separatorSlotNames: []
+  zSpacing: 0
+  useClipping: 1
+  immutableTriangles: 0
+  pmaVertexColors: 1
+  clearStateOnDisable: 0
+  tintBlack: 0
+  singleSubmesh: 0
+  addNormals: 0
+  calculateTangents: 0
+  logErrors: 0
+  disableRenderingOnOverride: 1
+  _animationName: 
+  loop: 0
+  timeScale: 1
+--- !u!114 &6483686717796929047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483686717796929044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2721996db25c2f64da5b5728a66ebddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotsDisable:
+  - khung_xe
+  - bang
+  - den
+  - cua_L
+  - cua_R
+  - kinh_L
+  - kinh_R
+  - banh_L
+  - banh_R
+  slotsEnable:
+  - khung_xe
+  - bang
+  - den
+  - cua_L
+  - cua_R
+  - kinh_L
+  - kinh_R
+  - banh_L
+  - banh_R
+  slotsEffectEnable: []
+--- !u!114 &6483686717796929046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483686717796929044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d07844d0660e62488769fa722322cf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
